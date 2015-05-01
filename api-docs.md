@@ -9,3 +9,4 @@ permalink: /docs/
 - [ical4j-extensions](ical4j-extensions/api)
 - [ical4j-connector](ical4j-connector/api)
 - [ical4j-vcard](ical4j-vcard/api)
+- [ical4j-integration](ical4j-integration/api)
