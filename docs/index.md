@@ -1,7 +1,6 @@
 ---
 layout: page
 title: API Documentation
-permalink: /docs/
 ---
 
 - [ical4j](ical4j/api)
