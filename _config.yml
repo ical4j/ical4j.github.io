@@ -1,0 +1,26 @@
+# Site settings
+title: iCal4j
+email: ical4j-support@mnode.org
+description: > # this means to ignore newlines until "baseurl:"
+  iCal4j is a Java library used to read and
+  write iCalendar data streams as defined in RFC2445.
+  The iCalendar standard provides a common data format used to store information about
+  calendar-specific data such as events, appointments, to-do lists, etc.
+  All of the popular calendaring tools, such as Lotus Notes, Outlook and Apple's iCal
+  also support the iCalendar standard.
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://ical4j.github.io" # the base hostname & protocol for your site
+baseurl: "/ical4j.github.io/_site" # the subpath of your site, e.g. /blog/
+url: "http://localhost:63342" # the base hostname & protocol for your site
+twitter_username: elbento
+github_username:  ical4j
+
+# Build settings
+markdown: kramdown
+
+##define this for disqus comment support
+disqus: ical4j
+
+##set this to enable google analytics
+ga_id: UA-402774-9
+ga_domain: figurate.org
