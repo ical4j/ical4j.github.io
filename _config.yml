@@ -8,10 +8,10 @@ description: > # this means to ignore newlines until "baseurl:"
   calendar-specific data such as events, appointments, to-do lists, etc.
   All of the popular calendaring tools, such as Lotus Notes, Outlook and Apple's iCal
   also support the iCalendar standard.
-#baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://ical4j.github.io" # the base hostname & protocol for your site
-baseurl: "/ical4j.github.io/_site" # the subpath of your site, e.g. /blog/
-url: "http://localhost:63342" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ical4j.github.io" # the base hostname & protocol for your site
+#baseurl: "/ical4j.github.io/_site" # the subpath of your site, e.g. /blog/
+#url: "http://localhost:63342" # the base hostname & protocol for your site
 twitter_username: elbento
 github_username:  ical4j
 
