@@ -22,5 +22,5 @@ markdown: kramdown
 disqus: ical4j
 
 ##set this to enable google analytics
-ga_id: UA-402774-9
-ga_domain: figurate.org
+ga_id: UA-402774-10
+ga_domain: ical4j.github.io
