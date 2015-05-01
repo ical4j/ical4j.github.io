@@ -24,3 +24,6 @@ disqus: ical4j
 ##set this to enable google analytics
 ga_id: UA-402774-10
 ga_domain: ical4j.github.io
+
+gems:
+  - jekyll-redirect-from
