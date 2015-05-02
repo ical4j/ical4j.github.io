@@ -16,5 +16,4 @@ def calendar = builder.calendar {
                 dtstart('20110919T150000Z')
                 dtend('20110921T100000Z')
             }
-		}
 {% endhighlight %}
