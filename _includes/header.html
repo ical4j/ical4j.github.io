@@ -15,13 +15,9 @@
 
       <div class="trigger">
         {% for page in site.pages %}
-          {% if page.title && page.title !~ / - Release Notes/ %}
-            {% assign showPageLink = true %}
-          {% endif %}
-
-          {% if showPageLink %}
+          {% if page.title %}{% unless page.title contains ' - Release Notes' %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+        {% endunless %}{% endif %}
         {% endfor %}
         <a class="page-link" href="https://github.com/ical4j/ical4j/wiki">Wiki</a>
         <a class="page-link" href="https://github.com/ical4j/ical4j/issues">Issues</a>
