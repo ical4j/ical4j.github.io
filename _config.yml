@@ -27,3 +27,4 @@ ga_domain: ical4j.github.io
 
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
