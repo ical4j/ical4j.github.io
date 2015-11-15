@@ -16,6 +16,10 @@
       <div class="trigger">
         {% for page in site.pages %}
           {% if page.title && page.title !~ / - Release Notes/ %}
+            {% assign showPageLink = true %}
+          {% endif %}
+
+          {% if showPageLink %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
