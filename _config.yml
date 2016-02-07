@@ -1,6 +1,6 @@
 # Site settings
 title: iCal4j
-email: ical4j-support@mnode.org
+email: ical4j-support@lists.mnode.org
 description: > # this means to ignore newlines until "baseurl:"
   iCal4j is a Java library used to read and
   write iCalendar data streams as defined in RFC2445.
