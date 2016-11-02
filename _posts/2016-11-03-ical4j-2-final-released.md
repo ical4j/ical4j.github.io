@@ -5,7 +5,7 @@ title: iCal4j 2.0.0 released
 
 The final release of 2.0.0 is now available for download from [SourceForge] or [Maven].
 
-Updated release notes and API documentation are also available.
+Updated [release notes] and [API documentation] are also available.
 
 Following this release work on iCal4j will focus on outstanding fixes and features requests,
 specifically targeting the new Java date/time API and support for alternate formats (e.g. XML, JSON, etc.)
