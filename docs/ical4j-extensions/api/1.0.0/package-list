@@ -1,0 +1,8 @@
+net.fortuna.ical4j.extensions.caldav.parameter
+net.fortuna.ical4j.extensions.caldav.property
+net.fortuna.ical4j.extensions.groupwise
+net.fortuna.ical4j.extensions.lotus
+net.fortuna.ical4j.extensions.outlook
+net.fortuna.ical4j.extensions.parameter
+net.fortuna.ical4j.extensions.property
+net.fortuna.ical4j.extensions.validate
