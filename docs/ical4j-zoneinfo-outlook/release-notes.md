@@ -3,6 +3,28 @@ layout: page
 title: iCal4j Zoneinfo Outlook - Release Notes
 ---
 
+# 2.0.0
+
+* Updated version for release branch
+* Updated to latest tzdata definitions
+* Updated ical4j dependency
+* Merge pull request #4 from ical4j/feature/axion-release-pluginFeature/axion release plugin
+* Upgraded release plugin
+* Updated gradle wrapper for compatibility with axion release plugin
+* Added travis-ci config
+* Updated to use axion release plugin
+* Disabled dry run
+* Updated definitions
+* Updated definitions
+* Ignore tzdata build artefacts
+* Build for java 6 compatibility
+* Allow override of dry run release
+* Allow override of dry run release
+* Allow override of dry run release
+* Update zoneinfo to tzdata2015c release
+* Update zoneinfo to tzdata2015c release
+* Updated ical4j dependency to latest
+
 # 1.0.4
 
 * 64027da Disable dry run release
