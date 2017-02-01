@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ical4j.github.io" # the base hostname & protocol for your site
 #baseurl: "/ical4j.github.io/_site" # the subpath of your site, e.g. /blog/
 #url: "http://localhost:63342" # the base hostname & protocol for your site
-twitter_username: elbento
+twitter_username: micronode
 github_username:  ical4j
 
 # Build settings
