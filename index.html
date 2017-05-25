@@ -6,17 +6,27 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <table>
+    <tr>
+      <td style="width:100%">
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+          {% endfor %}
+        </ul>
+      </td>
+      <td>
+        <p><img src="images/donate_5.jpg" style="width:250px;"></p>
+        <p>If you benefit from iCal4j, scan the barcode to donate $5 to the project.</p>
+      </td>
+    </tr>
+  </table>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
