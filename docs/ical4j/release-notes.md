@@ -3,6 +3,15 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 2.0.2
+
+* Make script executable [View commit](http://github.com/ical4j/ical4j/commit/3dacb97b27cf177c924d1a2bf9ae4ddcc96cd47e)
+* Sync release with maven central [View commit](http://github.com/ical4j/ical4j/commit/efcff1961ae876a448b38b461d66eb99beebfc38)
+* Added required maven metadata for maven central release [View commit](http://github.com/ical4j/ical4j/commit/ca98d38bdd875e6fc4bcaffe068d12176be8bb1d)
+* Moved build customisation template [View commit](http://github.com/ical4j/ical4j/commit/77710ecb7bf37ab53b2c8e61beb44a0b951fc7e7)
+* Ignore build customisations [View commit](http://github.com/ical4j/ical4j/commit/ff8a74533f9151136190e5359e2df2c5e6f9f7eb)
+* Ignore build customisations [View commit](http://github.com/ical4j/ical4j/commit/f4b96bbd6ea32500e73a3499cbfec895f7785b17)
+
 # 2.0.1
 
 * Access to WeakHashMap must be synchronized [View commit](http://github.com/ical4j/ical4j/commit/b887f01217b1f48eceb8dd91a05ee63e79e4c6b7)
