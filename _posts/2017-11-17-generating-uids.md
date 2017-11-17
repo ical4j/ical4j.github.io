@@ -6,7 +6,6 @@ title: Generating UIDs
 In the [RFC5545] iCalendar specification on which the iCal4j library is based, it provides the following guidelines
 for generating unique identifiers (UIDs):
 
-```
       The "UID" itself MUST be a globally unique identifier.
       The generator of the identifier MUST guarantee that the identifier
       is unique.  There are several algorithms that can be used to
@@ -26,28 +25,28 @@ for generating unique identifiers (UIDs):
       otherwise) such that the generator of the message identifier can
       guarantee the uniqueness of the left-hand side within the scope of
       that domain.
-```
 
 In the more recent specification for iCalendar extensions ([RFC7986]) the following advice for generating UIDs is offered:
-```
-   The description of the "UID" property in [RFC5545] contains some
-   recommendations on how the value can be constructed.  In particular,
-   it suggests use of host names, IP addresses, and domain names to
-   construct the value.  However, this is no longer considered good
-   practice, particularly from a security and privacy standpoint, since
-   use of such values can leak key information about a calendar user or
-   their client and network environment.  This specification updates
-   [RFC5545] by stating that "UID" values MUST NOT include any data that
-   might identify a user, host, domain, or any other security- or
-   privacy-sensitive information.  It is RECOMMENDED that calendar user
-   agents now generate "UID" values that are hex-encoded random
-   Universally Unique Identifier (UUID) values as defined in
-   Sections 4.4 and 4.5 of [RFC4122].
 
-   The following is an example of such a property value:
+     The description of the "UID" property in [RFC5545] contains some
+     recommendations on how the value can be constructed.  In particular,
+     it suggests use of host names, IP addresses, and domain names to
+     construct the value.  However, this is no longer considered good
+     practice, particularly from a security and privacy standpoint, since
+     use of such values can leak key information about a calendar user or
+     their client and network environment.  This specification updates
+     [RFC5545] by stating that "UID" values MUST NOT include any data that
+     might identify a user, host, domain, or any other security- or
+     privacy-sensitive information.  It is RECOMMENDED that calendar user
+     agents now generate "UID" values that are hex-encoded random
+     Universally Unique Identifier (UUID) values as defined in
+     Sections 4.4 and 4.5 of [RFC4122].
 
-   UID:5FC53010-1267-4F8E-BC28-1D7AE55A7C99
-```   
+     The following is an example of such a property value:
+
+     UID:5FC53010-1267-4F8E-BC28-1D7AE55A7C99
+
+
 To support freedom of choice iCal4j will soon support both of the approaches listed above.
 
 * `FixedUidGenerator` - renamed from `UidGenerator`
