@@ -3,6 +3,41 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 3.0.0
+
+* Added unfolding test of binary attachment [View commit](http://github.com/ical4j/ical4j/commit/a31c51d054c87a2d7b95c1340d6b0ea89b899fcc)
+* Update minimum java version and remove backport dependency [View commit](http://github.com/ical4j/ical4j/commit/077cd5491ca77f9b25787d39e11b48b3bdb51f4a)
+* Use forEach for cleaner code [View commit](http://github.com/ical4j/ical4j/commit/1d562c409e06d93cd2031618890a0289edeb0488)
+* Use removeIf for cleaner code [View commit](http://github.com/ical4j/ical4j/commit/aa957e550bb45daa67d45bf373e9b793ee85bb0f)
+* Use streams to replace StringBuilder for cleaner code [View commit](http://github.com/ical4j/ical4j/commit/50c62cecf394e6d42c09adeba6156e49807e4157)
+* Use forEach to replace forAllDo for cleaner code [View commit](http://github.com/ical4j/ical4j/commit/bd0054ec3402e1575e481d6b22d169575dbd3d5c)
+* Replace commons predicate with java8 predicate [View commit](http://github.com/ical4j/ical4j/commit/47a92ded43102465080c5d68525b9bc8edd9ec2d)
+* Updated groovy dependencies [View commit](http://github.com/ical4j/ical4j/commit/d4abb8b1a06c1d91a9464b702c9fe81494b23513)
+* Replaced custom Optional implementation with Java 8 implementation [View commit](http://github.com/ical4j/ical4j/commit/272195c02e620ef79587d51043e864867fd8ecab)
+* Replaced ObjectUtils defaults method with Optional [View commit](http://github.com/ical4j/ical4j/commit/90fb8f92f25d010a4cd2cd8304d17491a3471381)
+* Use different prefix and versioning on long-running alternate branches [View commit](http://github.com/ical4j/ical4j/commit/b376f0be2d416ab07dc0b28a7cd31d6e073fe95b)
+* Use different prefix and versioning on long-running alternate branches [View commit](http://github.com/ical4j/ical4j/commit/18678f9f32ec67700b099cf244d5732008720be2)
+* Use forEach to replace forAllDo for cleaner code [View commit](http://github.com/ical4j/ical4j/commit/e47a0ce6263811111f897d7557518c645a83c9db)
+* Automated code clean up [View commit](http://github.com/ical4j/ical4j/commit/763bcb161f2ea13d0b8f0af376fc316cc9448e42)
+* Fixed javadoc errors [View commit](http://github.com/ical4j/ical4j/commit/1b324b801bd5059fe16edd54a64cde2a330ef1ae)
+* Clean up collection manipulation [View commit](http://github.com/ical4j/ical4j/commit/05f6d812274b219c972f3dca43333599d64af8b8)
+* Simplify lambda expressions [View commit](http://github.com/ical4j/ical4j/commit/15adcf22708896b9c9ab14c5aa880c421dd2a456)
+* Simplify lambda and other expressions [View commit](http://github.com/ical4j/ical4j/commit/818d36b7bef969eddbd5243c5a656aa2b50effd1)
+* Clean up code [View commit](http://github.com/ical4j/ical4j/commit/63f34c403c8ff02c954e85ef4caa0f553427927c)
+* Clean up code [View commit](http://github.com/ical4j/ical4j/commit/c31667eeac4e7217ee070ef316c5d71dc927c143)
+* Clean up code [View commit](http://github.com/ical4j/ical4j/commit/ed8874f38f70e9dc659d9886c90d0469c8ca2ba9)
+* Make Github recognize the license [View commit](http://github.com/ical4j/ical4j/commit/722eacc73c95bd249080377f90644f0ef76d626a)
+* Removed redundant casting [View commit](http://github.com/ical4j/ical4j/commit/892d360a06e9163ccfa967d90af7669eb027e0e2)
+* Optionally generate jacoco html report [View commit](http://github.com/ical4j/ical4j/commit/c1e5b28367d399c5c61ce5edba684452539fa358)
+* Added valid date test [View commit](http://github.com/ical4j/ical4j/commit/30ca4effec46eb0f7af2b1a13618e97fbc2aee14)
+* Update issue templates [View commit](http://github.com/ical4j/ical4j/commit/9001aeeb7264d9b6adf141caa8efdc324dea7531)
+* Update bug_report.md [View commit](http://github.com/ical4j/ical4j/commit/7702672cc9268dd436ec98947138759418bc8bcf)
+* Clean up code [View commit](http://github.com/ical4j/ical4j/commit/0bd51a9500ef335b82cc46140828e2a4d1f1612f)
+* Improve class coverage [View commit](http://github.com/ical4j/ical4j/commit/16720cc7cc75af4879533fecac9f4232f48ac02c)
+* Improve class coverage [View commit](http://github.com/ical4j/ical4j/commit/3812c9a6556b86ede3a02d952c9c4e116a9f9b95)
+* Improve class coverage [View commit](http://github.com/ical4j/ical4j/commit/35ad1abf1e9c52a78cd0c867867394d3062569fa)
+
+
 # 2.0.2
 
 * Make script executable [View commit](http://github.com/ical4j/ical4j/commit/3dacb97b27cf177c924d1a2bf9ae4ddcc96cd47e)
