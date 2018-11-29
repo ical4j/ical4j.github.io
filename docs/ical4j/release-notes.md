@@ -3,6 +3,35 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 3.0.2
+
+* Created branch to support the new Java date/time API [View commit](http://github.com/ical4j/ical4j/commit/be391108133e7352cb70e3dbd8f880c11ac76212)
+* Use jsr-310 temporal amount to represent durations [View commit](http://github.com/ical4j/ical4j/commit/5b27f489fc45b0039525ba6863527bb9de207d62)
+* Fixes for Issue #241: -Fixed ByYearDay support for leap years. -Fixed ByMonthDay, ByYearDay and ByWeekNo support for negative offsets. -Fixed ByWeekNo support to preserve DayOfWeek from seed if ByDay is not specified. [View commit](http://github.com/ical4j/ical4j/commit/a29dd043690c2dcf6c0d94bec5cd6ec1f9f050ca)
+* Auto close input streams [View commit](http://github.com/ical4j/ical4j/commit/903b64f14b0f55b7f7addb7927985de18797b297)
+* Build against Java 9/10 [View commit](http://github.com/ical4j/ical4j/commit/f7edfb26aa068bae561e3840b5c68a1735b3375d)
+* Upgrade gradle wrapper to support java 9 [View commit](http://github.com/ical4j/ical4j/commit/22b102621932b2c113793034ff875910d1fad5cf)
+* Added code sample [View commit](http://github.com/ical4j/ical4j/commit/c90700baa8080948e03340e5603bb8f2a0ca91bc)
+* Added override annotation [View commit](http://github.com/ical4j/ical4j/commit/ac3d91c00a297cbe5a18f469944ba346eeb868e1)
+* Bugfix - When DtEnd is derived from DtStart, DtEnd should have the same timezone with DtStart. [View commit](http://github.com/ical4j/ical4j/commit/c205a5b16e28e074193bfa6bb57b8b7463dec005)
+* When absorbing whitespace ignore EOF only when parsing multiple calendars (not within a calendar) [View commit](http://github.com/ical4j/ical4j/commit/83baf816e9cc6f1e9e9ea9e4923d8944b228c3e2)
+* Updated dependency syntax [View commit](http://github.com/ical4j/ical4j/commit/1f19bdee094edd7837ac9c6e876ea58e14452d69)
+* Use modern api features [View commit](http://github.com/ical4j/ical4j/commit/95435ed3f3bd8b621c65d35666ad642f928ab301)
+* Set root logger config [View commit](http://github.com/ical4j/ical4j/commit/6243559360c368d57d1e57c007ebdedd9b1cc146)
+* Clean up code [View commit](http://github.com/ical4j/ical4j/commit/9b633bdeb7128b22acf07ecb0f0eb7e12265c4f1)
+* Replace UtcOffset with java.time.ZoneOffset [View commit](http://github.com/ical4j/ical4j/commit/7d18cb0481612ee09f3ce822f4a6cd9d609c9cf6)
+* Revert changes [View commit](http://github.com/ical4j/ical4j/commit/39ab968834f47d58867a01fb16ccd1667e1ffc5a)
+* Replace UtcOffset with java.time.ZoneOffset [View commit](http://github.com/ical4j/ical4j/commit/9edc64cb3747567a4800b985ced0ea1d0e32fc7c)
+* Replaced Dur with java.time.TemporalAmount [View commit](http://github.com/ical4j/ical4j/commit/6a395489670300194ec59f933882b2bba2bbcbf9)
+* Fixed invalid durations [View commit](http://github.com/ical4j/ical4j/commit/a807dd405c8d195dc43c048f5b3882dad58adec7)
+* Replace UtcOffset with java.time.ZoneOffset [View commit](http://github.com/ical4j/ical4j/commit/03d7e78b9802de6ba8bd55fa98aa4a1e4cf6ceb3)
+* Added adapter to account for differences between icalendar and java iso8601 interpretations [View commit](http://github.com/ical4j/ical4j/commit/59a885c57ed613bf47e64a6a243cc406d6ae72f5)
+* Added comparator for temporalamount interface [View commit](http://github.com/ical4j/ical4j/commit/08182f7682652a614ae8fde33119da191027b546)
+* Support API backwards compatibility [View commit](http://github.com/ical4j/ical4j/commit/f3451abcb521c9ff94c38d59b129ac9310cc524b)
+* Support API backwards compatibility [View commit](http://github.com/ical4j/ical4j/commit/aa0832475449e997560aa305633d0bf7fc4c0982)
+* Support negative duration [View commit](http://github.com/ical4j/ical4j/commit/5bc803e230dce4a32e39262fdb2818006695fb65)
+
+
 # 3.0.0
 
 * Added unfolding test of binary attachment [View commit](http://github.com/ical4j/ical4j/commit/a31c51d054c87a2d7b95c1340d6b0ea89b899fcc)
