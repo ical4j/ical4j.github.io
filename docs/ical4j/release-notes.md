@@ -3,6 +3,42 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 3.0.4
+
+* update to groovy 2.5.4 [View commit](http://github.com/ical4j/ical4j/commit/bba70f6fea740485857397c8f60e8a427da8f4a8)
+* add dependency for groovy-dateutil [View commit](http://github.com/ical4j/ical4j/commit/4eeba8a0b246186a8df90724976bc9098b0cf1e3)
+* Upgrade bintray plugin [View commit](http://github.com/ical4j/ical4j/commit/2769c011db9800701ea89143fadb25641df77b90)
+* Refactored to use streams [View commit](http://github.com/ical4j/ical4j/commit/ca3c6ff9f8706477b5141023c4b2c0cdf608192a)
+* Refactored to use streams [View commit](http://github.com/ical4j/ical4j/commit/43f97841fd44e72fa3e70dc8f9836c0b66b4ed79)
+* Added varargs constructor [View commit](http://github.com/ical4j/ical4j/commit/fad0474abcf6d95dcea0bfdd9762d7f0454c6e58)
+* Added enum for frequency type [View commit](http://github.com/ical4j/ical4j/commit/e3f697c84f762e9a444cb107e67f93deed88651e)
+* Added builder implementation for creating Recur instances [View commit](http://github.com/ical4j/ical4j/commit/6315e0d4ca6f1bb1a9daf579a3cf17f8aea6d98a)
+* enforced stricter loop condition, added explanation [View commit](http://github.com/ical4j/ical4j/commit/056f16d219291b2fada6b9786e92738ceb566a7e)
+* Refactored recurrence rules [View commit](http://github.com/ical4j/ical4j/commit/5189b3f19c9382a34a8ecc1a6846ca32cd79e7fc)
+* added test to show valid monthly limit [View commit](http://github.com/ical4j/ical4j/commit/2b189863925eb14bb1f9cf38c350cf8317ef864f)
+* added recurrence test to hit limit and return null [View commit](http://github.com/ical4j/ical4j/commit/4d45b6f93aea19a5e843a92aba2e7e0fe877382e)
+* added valid test cases around hitting equals condition before multiplier [View commit](http://github.com/ical4j/ical4j/commit/a4a56f6f6bf5a609be6818a12c33b6748e8b9882)
+* Additional implicit rules added [View commit](http://github.com/ical4j/ical4j/commit/3bf69015cc86ba3884b6510f389c4658ab0c7140)
+* Clean up [View commit](http://github.com/ical4j/ical4j/commit/132a71711e93ab7072b18b8e11ede8168ab8afd8)
+* Test by rule parts [View commit](http://github.com/ical4j/ical4j/commit/4b91d5892c00e9b58044cb27e77bed6aefb40b39)
+* Test by rule parts [View commit](http://github.com/ical4j/ical4j/commit/a088a538c54fa392113b4787f877166e97e08557)
+* Added test for demonstrating leap year behaviour (implicit BYMONTHDAY rules applied after processing this rule) [View commit](http://github.com/ical4j/ical4j/commit/45ff076d1bee45112d7fa113929879be31611009)
+* Updated test based on changed behaviour following recurrence refactor [View commit](http://github.com/ical4j/ical4j/commit/e6bf04e7bc316a8619afaec7e5eb3b3c7904cd05)
+* Added test for demonstrating leap year behaviour (implicit BYMONTHDAY rules applied after processing this rule) [View commit](http://github.com/ical4j/ical4j/commit/da211cac22ce5106903c1603350e19c6c99e8397)
+* Implemented more complete limit/expansion rules according to RFC5545 [View commit](http://github.com/ical4j/ical4j/commit/c1a4e599cde63cebe2004a76a39d343bff9b816c)
+* Implemented more complete limit/expansion rules according to RFC5545 [View commit](http://github.com/ical4j/ical4j/commit/b22d38c349e0338dfa1fbc9ac3c93ec2461940aa)
+* Implemented more complete limit/expansion rules according to RFC5545 [View commit](http://github.com/ical4j/ical4j/commit/b2583965ea52716b3ce3cd0d511db8f62c72edc7)
+* Implemented more complete limit/expansion rules according to RFC5545 [View commit](http://github.com/ical4j/ical4j/commit/b2d90f24e374bb063507ba081653129ed45da612)
+* Implemented more complete limit/expansion rules according to RFC5545 [View commit](http://github.com/ical4j/ical4j/commit/b474a6e1369a2f24928387c7cb62a47b0a889bd1)
+* Attempt to fix github issue#99, inclusive Recur [View commit](http://github.com/ical4j/ical4j/commit/13dfe06b0b41f83d6c3bff47398ebc82196e44e3)
+* Use recur builder to avoid indeterminate behaviour [View commit](http://github.com/ical4j/ical4j/commit/158d14142d9f436ee860e1250c54556f6efdb405)
+* Improved test coverage [View commit](http://github.com/ical4j/ical4j/commit/ef5fd2a4c1d670a3edbd757299b3cdfde5301ae5)
+* Improved test coverage [View commit](http://github.com/ical4j/ical4j/commit/fd23b365ed9e72c0dc6e8888aa7a9f1c43b09ada)
+* Improved test coverage [View commit](http://github.com/ical4j/ical4j/commit/a02d37718e1b0493d59ca58c92cfd4a0681852d2)
+* Implemented more complete limit/expansion rules according to RFC5545 [View commit](http://github.com/ical4j/ical4j/commit/dc8f8bd860d47eec6c43557a2b380295a73759cc)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/85fea35fd5d0808c3e2de809d9111357e7733c96)
+
+
 # 3.0.2
 
 * Created branch to support the new Java date/time API [View commit](http://github.com/ical4j/ical4j/commit/be391108133e7352cb70e3dbd8f880c11ac76212)
