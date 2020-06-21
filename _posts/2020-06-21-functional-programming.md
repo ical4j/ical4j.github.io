@@ -3,7 +3,7 @@ layout: post
 title: Support for Functional Programming
 ---
 
-In addition to support for the new Java date/time API, iCal4j v4 will also aim to improve support for Functional
+In addition to support for the new Java date/time [API], iCal4j v4 will also aim to improve support for Functional
 Programming patterns and features included since Java 8.
 
 ## Immutable Collections
