@@ -31,10 +31,10 @@ As is demonstrated in the iCal4j unit tests, the results for a number of edge-ca
 as compare to iCal4j 3.x. So if you do anticipate some of those edges cases ensure you provide good test coverage and
 verify the expected results.
  
-As usual, these changes are now available in [iCal4j Alpha6]. We welcome any feedback and bug reports via the Github 
+As usual, these changes are now available in [iCal4j v4 Alpha6]. We welcome any feedback and bug reports via the Github 
 issues page.
 
-[iCal4j Alpha6]: https://search.maven.org/artifact/org.mnode.ical4j/ical4j
+[iCal4j v4 Alpha6]: https://search.maven.org/artifact/org.mnode.ical4j/ical4j
 
 [API]: http://ical4j.github.io/docs/ical4j/api/4.0.0-alpha6/
 
