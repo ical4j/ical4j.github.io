@@ -15,6 +15,6 @@ object model can be easily converted to (and from) JSON representations.
 The initial release is not yet a complete implementation, but feel free to provide feedback and additions to help
 accelerate the development.
 
-[iCal4j JSON]: http://ical4j.github.io/ical4j-user-guide
+[iCal4j JSON]: http://github.com/ical4j/ical4j-json
 [jCal]: https://tools.ietf.org/html/rfc7265
 [JSCalendar]: https://tools.ietf.org/html/draft-ietf-calext-jscalendar-32
