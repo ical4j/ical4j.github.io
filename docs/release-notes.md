@@ -8,4 +8,5 @@ title: Release Notes
 - [ical4j-extensions](ical4j-extensions/release-notes)
 - [ical4j-connector](ical4j-connector/release-notes)
 - [ical4j-vcard](ical4j-vcard/release-notes)
+- [ical4j-json](ical4j-json/release-notes)
 - [ical4j-integration](ical4j-integration/release-notes)
