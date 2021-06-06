@@ -36,9 +36,6 @@ The [iana.org/time-zones] mailing list included extensive discussion on the pros
 it is worth considering that timezone rules are defined somewhat arbitrarily by governments of states and regions, and
 as a result we cannot predict what the future will hold.
 
-As such, branching timezone rules (as has been done in the past) will likely continue, but merging rules together is
-problematic for historical record and increased complexity of future divergence of previously merged zones.
-
 A simplification today might lead to more complexity in the future, but we'll have to see how it plays out on the
 mailing list.
 
