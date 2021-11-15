@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.mnode.ical4j.serializer"},{"l":"org.mnode.ical4j.serializer.jot"},{"l":"org.mnode.ical4j.serializer.jscalendar"},{"l":"org.mnode.ical4j.serializer.jscontact"},{"l":"org.mnode.ical4j.serializer.jsonfeed"},{"l":"org.mnode.ical4j.serializer.schema"}]

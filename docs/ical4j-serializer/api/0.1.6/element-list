@@ -1,0 +1,6 @@
+org.mnode.ical4j.serializer
+org.mnode.ical4j.serializer.jot
+org.mnode.ical4j.serializer.jscalendar
+org.mnode.ical4j.serializer.jscontact
+org.mnode.ical4j.serializer.jsonfeed
+org.mnode.ical4j.serializer.schema

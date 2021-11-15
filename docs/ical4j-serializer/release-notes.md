@@ -1,0 +1,75 @@
+---
+layout: page
+title: iCal4j Serializer - Release Notes
+---
+
+# 0.1.6
+
+* Added JSON Feed serializer [View commit](http://github.com/ical4j/ical4j/commit/0b7880affe4f5d4a8184505adbeccf5f104cfcdd)
+* Updated dependencies [View commit](http://github.com/ical4j/ical4j/commit/e38ad7f64cf46bf49e77b904bf21263d8fe8790e)
+* Refactoring to reflect change of library name [View commit](http://github.com/ical4j/ical4j/commit/99c7d27466d0bdcfd4e057a7b32bc9fcd234b546)
+* Refactoring to reflect change of library name [View commit](http://github.com/ical4j/ical4j/commit/b866986fbde4232d3f1b9018c97cd7703596bbec)
+* Added xCal reference [View commit](http://github.com/ical4j/ical4j/commit/158ba786a9a34c70e775edeba499f0f8f370d81b)
+* Added xCal serializer [View commit](http://github.com/ical4j/ical4j/commit/b667d4af026bf8b38ea2d58520e2434c924ecb1b)
+* Added xCal mapper [View commit](http://github.com/ical4j/ical4j/commit/0615711536c7ba9656d1742a2ae27cc698a25fc3)
+* Configure releases [View commit](http://github.com/ical4j/ical4j/commit/1c9dd8de89b4c7f2d3877098ecc4eac76132a785)
+
+# 0.1.1 [..] 0.1.5
+
+* Updated javadoc links [View commit](http://github.com/ical4j/ical4j/commit/6a43ef7e0c8c5a9c06e5c35ac31a2a0c835d5aa9)
+* Updated usage docs [View commit](http://github.com/ical4j/ical4j/commit/e972f765bcd347d4fa4c3af09f5a6b7441ffe8ab)
+* Updated docs [View commit](http://github.com/ical4j/ical4j/commit/d4df7ed9ef7c9a9664c92659a49bdc52ef523d83)
+* Support overridden property types (VALUE param) [View commit](http://github.com/ical4j/ical4j/commit/fd306dc4138d2f63b259334d348acb93f49b04ec)
+* Added tests [View commit](http://github.com/ical4j/ical4j/commit/3d1c29554014d1ce35f772a15afffeb01fe9348f)
+* Support overridden property types (VALUE param) [View commit](http://github.com/ical4j/ical4j/commit/5cd558e18b2557386f812e6e3d20551560c04ceb)
+* Added snapshot publishing [View commit](http://github.com/ical4j/ical4j/commit/c45c3c0028b25a17ffc736ecd1032aec82c35f61)
+* Support overridden property types (VALUE param) [View commit](http://github.com/ical4j/ical4j/commit/764831762f4572b60a61a3d43e0b0da9c0e21931)
+* Revert to ical4j 3.x until 4.x stable is released [View commit](http://github.com/ical4j/ical4j/commit/9af2c69476aae42abd5776d99db72d6f58228774)
+* Updated ical4j dependency [View commit](http://github.com/ical4j/ical4j/commit/b3d481dddf36ceb6a18d093c47b6175b02fce3e1)
+* Updated release plugin [View commit](http://github.com/ical4j/ical4j/commit/987a109ee6443801fcc2b465dba3d7602e5bf843)
+* Added Jot API references [View commit](http://github.com/ical4j/ical4j/commit/0fd83b18a731e7252e430347ca7342c4f233eb75)
+* Added Jot serialization [View commit](http://github.com/ical4j/ical4j/commit/762c2833b8579f84dff86e416551f1406363d06d)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/76198cee924824fa61348a40df524611e5295e22)
+* Updated docs [View commit](http://github.com/ical4j/ical4j/commit/d2fc5c50c6fb269c5fb337ff24d47830d2e70762)
+* Updated docs [View commit](http://github.com/ical4j/ical4j/commit/ef5f4457c1b0e046f6fa92ab88000ad25560a310)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/671ca922172d88c6347225a4b7b38a671a767719)
+* Added jCard support [View commit](http://github.com/ical4j/ical4j/commit/6939c784e835bcc79d39b7db231d3224770a0a9a)
+* Added jCard support [View commit](http://github.com/ical4j/ical4j/commit/05270f9405a7e7beaa4b4f5ec5babbfd1ec0cb86)
+* Added schema.org support [View commit](http://github.com/ical4j/ical4j/commit/7c3f2d8ce4598fa409046ff5b01a9a13919595fe)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/6c34c357bd1a797d9f8cb15b75ad9c906472fdab)
+* Added more schema types [View commit](http://github.com/ical4j/ical4j/commit/446af6d8f5408344b315ce4ced2eafdedd753652)
+* Added more schema types [View commit](http://github.com/ical4j/ical4j/commit/f392eb250365f45d3c9858e565918f54e0535768)
+* Added more schema types [View commit](http://github.com/ical4j/ical4j/commit/75cfb5a5d3d7053fdfd59e3b7551da2c1d5d9a99)
+* Added more schema types [View commit](http://github.com/ical4j/ical4j/commit/9c46b62b84eefb35983b7b76a9845c8dded590f1)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/8747baa013a94ab20b426170a59140f2ad9f31a9)
+* Added vcard serialization [View commit](http://github.com/ical4j/ical4j/commit/0dfab22c3b2be745f7e1636daeb458510fff7133)
+* Added jot mapper support [View commit](http://github.com/ical4j/ical4j/commit/a661f4b9d78815f81980b7aaa64af543370e716f)
+* Added jot mapper support [View commit](http://github.com/ical4j/ical4j/commit/054bee603ba22343e8bfda5166cd735c1c95bfa8)
+* Improved serializer testing [View commit](http://github.com/ical4j/ical4j/commit/7019a7ce731763842f65c1bc903cc0108c99b19d)
+* Added jot mapper support [View commit](http://github.com/ical4j/ical4j/commit/48c84e90cce665d1c36447d7b9b89c388468727b)
+* Updated docs [View commit](http://github.com/ical4j/ical4j/commit/b0f6ed432e9994f4c00c3c6406e16998c14c4a2b)
+* Updated serializer uid field to align with mapper [View commit](http://github.com/ical4j/ical4j/commit/855467aa4aaccaf0dabc3f54634ad7fee496b5c1)
+* Serialize all properties to simplify implementation [View commit](http://github.com/ical4j/ical4j/commit/aaa51f80cfe5356db49a617283666b4d368013b3)
+* Added organizer property builder [View commit](http://github.com/ical4j/ical4j/commit/123f3f55741a4a3820e3962f235ede8e000c848d)
+* Skip unused properties [View commit](http://github.com/ical4j/ical4j/commit/aeb3b1a1f4bbf64299ac59239a6d23ab4c28bbce)
+* Added card mapper support [View commit](http://github.com/ical4j/ical4j/commit/de9cc4f7513a946c40811c1711a76866f4331f50)
+* Improved test coverage [View commit](http://github.com/ical4j/ical4j/commit/e57960ae6785f04cc9566d8b55523bc5e1a311f6)
+* Improved test coverage [View commit](http://github.com/ical4j/ical4j/commit/f2258d1e4acd9a1c0487c9b850dd9807ce60e1c1)
+* Don't require signing for snapshot builds [View commit](http://github.com/ical4j/ical4j/commit/5c145c361169eebcbdad2a577159e8ec8cb56d38)
+* Updated maven credentials [View commit](http://github.com/ical4j/ical4j/commit/e315af649317333960164eecb51486f14a862bfb)
+* Updated dependencies [View commit](http://github.com/ical4j/ical4j/commit/db3d2c6f69a3f0a76f825df10393809521af1188)
+* Updated references to finalized RFCs [View commit](http://github.com/ical4j/ical4j/commit/f4bf154f1201b4eb3a53ea9d205bf18e64a3f02b)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/418f0674555e4337391e510c71ada794b67bbdec)
+* Added JSContact support [View commit](http://github.com/ical4j/ical4j/commit/c9b98dc57f550b9b1e8bd69d3e321004a5f4f2d3)
+* Fixed tests [View commit](http://github.com/ical4j/ical4j/commit/d9d963048d7f1041aecdc396f6cc65887d56df2b)
+* Support experimental properties/params [View commit](http://github.com/ical4j/ical4j/commit/c33a5f04d334e4a3ecf8aac110bc679b3191fc03)
+* Support experimental properties/params [View commit](http://github.com/ical4j/ical4j/commit/4e84cb71d8b0e2b918f084bb7cb10e6e781e6a94)
+* Support experimental properties/params [View commit](http://github.com/ical4j/ical4j/commit/1bab092612c5284f865f0189e618729863024f03)
+* Update ical4j dependency [View commit](http://github.com/ical4j/ical4j/commit/671a14e01ac004c11ede3872745eb0539c25d269)
+* Force EOL char for ics files [View commit](http://github.com/ical4j/ical4j/commit/da07a16c3c823bc1b4557ffd5334fffdf7b02c11)
+* Added value conversion from iCalendar to JCal. [View commit](http://github.com/ical4j/ical4j/commit/132ecc9daf9c26fee03307442e3fb0f5544cec91)
+* Added value conversion between iCalendar and JCal. [View commit](http://github.com/ical4j/ical4j/commit/060fdc39382224af52be9d9786827df08ab79059)
+
+# 0.1.0
+
+* Initial release with limited support for jCal serialization.
