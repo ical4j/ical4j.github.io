@@ -3,6 +3,33 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 3.1.2
+
+* Removed redundant method [View commit](http://github.com/ical4j/ical4j/commit/d66999657a561e6fd8607d47554ef59f742c8149)
+* Updated docs [View commit](http://github.com/ical4j/ical4j/commit/22b5f900ffdd4a543224724fb76f88bdacfccb55)
+* Revert method removal for backwards compatibility [View commit](http://github.com/ical4j/ical4j/commit/d0fb4097ae90e98ab73c504129115d09c74ae46a)
+* Refactored validation rules [View commit](http://github.com/ical4j/ical4j/commit/3efe09cf795212573123a6526957c99c5507d44e)
+* Revert method removal for backwards compatibility [View commit](http://github.com/ical4j/ical4j/commit/989a937e4d7e9992fb29646c2a2d6b9dbc6db71c)
+* Updated revapi to accept changes to validation [View commit](http://github.com/ical4j/ical4j/commit/f9e36bc19d28e76e001cd5b4d6c65947018e3232)
+* Code cleanup [View commit](http://github.com/ical4j/ical4j/commit/e3ebd498f34e15f75aa2bbb5712bdf664acc0f93)
+* Preserve EOL for ICS files [View commit](http://github.com/ical4j/ical4j/commit/2f38669f6195c9100815b41474e0153e93fc5005)
+* Change default implementation of TimeZoneCache [View commit](http://github.com/ical4j/ical4j/commit/65171f1f6580828581427995e6ac8b5d11e6fe3d)
+* Improve GRADLE build Performance [View commit](http://github.com/ical4j/ical4j/commit/2d27d6365347512aa80bf684c8bebd6470d0945e)
+* Script cleanup [View commit](http://github.com/ical4j/ical4j/commit/9ba13ca526e93062bb120c89341e67b3d3423763)
+* Updated gradle version [View commit](http://github.com/ical4j/ical4j/commit/e5d0b8d005d6696300e00193cdbffce99151a636)
+* Replace scripts with makefile [View commit](http://github.com/ical4j/ical4j/commit/4ef54a215e4c60dd6ea7621bec6de3602a4d60ec)
+* Added api make goals [View commit](http://github.com/ical4j/ical4j/commit/0618d76cd5a722e71318d6089fa6ca0a7bbb49e9)
+* Explicitly set log4j version for unit tests [View commit](http://github.com/ical4j/ical4j/commit/92211d326e6483ca049b069a6c8d8659d826bd13)
+* Added null check to prevent null pointer exception [View commit](http://github.com/ical4j/ical4j/commit/478c8cbf7ebd0924ff19c898593aae47d001071a)
+* Formatting [View commit](http://github.com/ical4j/ical4j/commit/de9b68666911c35c9f767d63a9079e6ce288ac16)
+* Fixed broken test [View commit](http://github.com/ical4j/ical4j/commit/d24bd7f28502352053be85faa606bf7c9071b1a7)
+* Refactoring toString for content [View commit](http://github.com/ical4j/ical4j/commit/158a3f4b315e6ae92d8eeb1ab81334f130d7b7af)
+* Fixed broken test [View commit](http://github.com/ical4j/ical4j/commit/70e52f65282f667159ee4c37523abf2fc6326ab8)
+* Formatting [View commit](http://github.com/ical4j/ical4j/commit/5f871d6c1a2b176fbfccb5991f918143f969dea8)
+* Support relaxed parsing of email address [View commit](http://github.com/ical4j/ical4j/commit/d0a6ea27a6d61c24168c6d6ddac867d337c5333f)
+* Accept api changes due to validation refactoring [View commit](http://github.com/ical4j/ical4j/commit/d5c4c6623362f3868cf2267963c5db105692fde7)
+
+
 # 3.1.1
 
 * Return immutable lists when filtering components [View commit](http://github.com/ical4j/ical4j/commit/3fa847bc9f112c131f47fe79071ba59029d2a4f1)
