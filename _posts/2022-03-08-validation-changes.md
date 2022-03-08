@@ -9,4 +9,4 @@ to switch from exception-based reporting (i.e. via `ValidationException`) to a c
 
 If you rely on validation please ensure you check the new method signatures and adjust your code accordingly.
 
-[iCal4j release]: (https://ical4j.github.io/docs/ical4j/api/)
+[iCal4j release]: https://ical4j.github.io/docs/ical4j/api/
