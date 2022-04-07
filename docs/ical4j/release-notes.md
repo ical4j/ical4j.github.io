@@ -3,6 +3,49 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 3.2.1
+
+* Updated baseline versions [View commit](http://github.com/ical4j/ical4j/commit/74008dc846cf39dee78de86bcb6eb49de61cd044)
+* Code clean up [View commit](http://github.com/ical4j/ical4j/commit/efe497a4da6c5ed5aa2f69655ee8b53b285b16bb)
+* Approve breaking api changes for rsvp [View commit](http://github.com/ical4j/ical4j/commit/06e30e3e045644f340918c2909eba00e241b0bd7)
+* Remove final modifier to allow subclass validation override [View commit](http://github.com/ical4j/ical4j/commit/4c2febf39d4cc4996fe09c008eab5c39fe208e1d)
+* Fixed generics [View commit](http://github.com/ical4j/ical4j/commit/ab67968e47551ab33a5d4670830e818deffdc6fd)
+* Added fluent api for calendar [View commit](http://github.com/ical4j/ical4j/commit/9cd556ed7e8a4cecf903d0eca0a7055f82e450e4)
+* Added fluent api for calendar [View commit](http://github.com/ical4j/ical4j/commit/ca3599ac6e3695bcdb216e31c08b9e16364f0d3d)
+* Added fluent api for components and properties [View commit](http://github.com/ical4j/ical4j/commit/805866f07c80118b5a2d4291325cc3be5307e120)
+
+
+# 3.2.0
+
+* Updated previous version for comparison [View commit](http://github.com/ical4j/ical4j/commit/a37871a3b6c755be0049e0cb1783f2a5c953d5ae)
+* Added support for negative DST offsets by treating as a non-Daylight time observance [View commit](http://github.com/ical4j/ical4j/commit/c9e9367a6dd8ef3faf9fa3b5eb850843eae1c3b6)
+* Fixed comment [View commit](http://github.com/ical4j/ical4j/commit/1eb6cee6615b86dc8c67ffcd189255a07f0ba1cc)
+* Code clean up [View commit](http://github.com/ical4j/ical4j/commit/1a5bee57522e69c98c561f5db1232bf9963bd002)
+* Added support for timezone distribution service spec [View commit](http://github.com/ical4j/ical4j/commit/ce6c83533e9c75823aeb00cdd538b1c7d47edecc)
+* Added support for timezone distribution service spec [View commit](http://github.com/ical4j/ical4j/commit/bf409141a4a2894196c864db588543bd82d4fef7)
+* Added customisation test [View commit](http://github.com/ical4j/ical4j/commit/03ee53e4b4603976d86cc221e27eff6d1d2a5f0b)
+* Generics fixes [View commit](http://github.com/ical4j/ical4j/commit/9bc8924c533443a97ea6eb86a0fb7212f4b3a84f)
+* Generics fixes [View commit](http://github.com/ical4j/ical4j/commit/1448220457f98aaf368989ada13e7eaa43f78daa)
+* Added initial support for structured data schema validation [View commit](http://github.com/ical4j/ical4j/commit/27339e81caa1ecadde7dafb187e6a9083ffa7a58)
+* Refactored validation result to support contextual info [View commit](http://github.com/ical4j/ical4j/commit/3a6a40b743b693d41122faad2a698df04d1e86cf)
+* Support contextual info in validation [View commit](http://github.com/ical4j/ical4j/commit/2eac5812de230a3ff5971708b7d38a387a48ee51)
+* Added test coverage [View commit](http://github.com/ical4j/ical4j/commit/5e8676d3c0533425d1c1e0477c0f5bd8cd2beee8)
+* Refactor rule application [View commit](http://github.com/ical4j/ical4j/commit/b6651723c4a7900b4f133a2221206458e1c1da3e)
+* Filter duplicate validation result entries [View commit](http://github.com/ical4j/ical4j/commit/bc5f2f8bfbae3acef5ef7990ec8ee3ec058427f3)
+* Support property value match rule [View commit](http://github.com/ical4j/ical4j/commit/febd795a896294ebafb8adf0c78b8a87b716361a)
+* Removed context from rule sets (now in validator) [View commit](http://github.com/ical4j/ical4j/commit/261375bef566c9ccfaf001b77587655ec13e8a1f)
+* Refactored validator implementations [View commit](http://github.com/ical4j/ical4j/commit/2858d19cb22e05d9fc73a728bf700f3af297d85b)
+* Changed validation method signature [View commit](http://github.com/ical4j/ical4j/commit/7b725520466a6f0ad3e8066c8b2cdbe6273427de)
+* Updated invalid samples [View commit](http://github.com/ical4j/ical4j/commit/071890ab5b7c287ea2d2bb5e35e1a5b72f1adc85)
+* No longer throw exception on validation failure [View commit](http://github.com/ical4j/ical4j/commit/10acb48344fcfd9862c2e872bebf6d4ff41c428a)
+* Collate nested validation results [View commit](http://github.com/ical4j/ical4j/commit/ddad77588d3542aa57bda37e23f89e73f20862b6)
+* Approve breaking api changes for validation refactor [View commit](http://github.com/ical4j/ical4j/commit/3ab91d1fa3903873b144c150fa7a506e2a2f0e11)
+* Added convenience method for merging validation results [View commit](http://github.com/ical4j/ical4j/commit/1cdf6549122a864d80e2d828c471de775c1ad8dc)
+* Support multiple prop names in list filtering [View commit](http://github.com/ical4j/ical4j/commit/4908867ea109956c030518680736f601ec7a18be)
+* Refactored validation rule predicate support [View commit](http://github.com/ical4j/ical4j/commit/afb94f069ee0b2ca2af9c138009954e6924cb8f6)
+* Approve breaking api changes for validation refactor [View commit](http://github.com/ical4j/ical4j/commit/30bd0388d53a44624d2bc2681d5f01c1999c1621)
+
+
 # 3.1.2
 
 * Removed redundant method [View commit](http://github.com/ical4j/ical4j/commit/d66999657a561e6fd8607d47554ef59f742c8149)
