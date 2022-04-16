@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"org.ical4j.integration.mail","l":"CalendarMailListener"},{"p":"org.ical4j.integration.mail","l":"CalendarMailTransport"},{"p":"org.ical4j.integration.mail","l":"MessageBuilder"},{"p":"org.ical4j.integration.mail","l":"MessageParser"},{"p":"org.ical4j.integration.mail","l":"MessageTemplate"}]
