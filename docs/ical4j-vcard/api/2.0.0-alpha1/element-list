@@ -1,0 +1,4 @@
+net.fortuna.ical4j.vcard
+net.fortuna.ical4j.vcard.parameter
+net.fortuna.ical4j.vcard.property
+net.fortuna.ical4j.vcard.property.immutable

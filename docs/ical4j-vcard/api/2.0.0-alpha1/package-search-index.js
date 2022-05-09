@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"net.fortuna.ical4j.vcard"},{"l":"net.fortuna.ical4j.vcard.parameter"},{"l":"net.fortuna.ical4j.vcard.property"},{"l":"net.fortuna.ical4j.vcard.property.immutable"}]
