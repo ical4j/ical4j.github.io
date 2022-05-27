@@ -26,4 +26,4 @@ to provide maximum choice in how they are deployed.
 These services will extend some of the capabilities of iCal4j to non-Java applications, and mark the beginning
 of a service-oriented focus for the iCal4j project.
 
-[iCal4j Services]: https://www.ical4j.org/services.md
+[iCal4j Services]: https://www.ical4j.org/services
