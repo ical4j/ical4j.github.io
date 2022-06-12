@@ -3,6 +3,43 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 4.0.0-beta1
+
+* run tests with UTC timezone as default [View commit](http://github.com/ical4j/ical4j/commit/2cd3ce1d39d1f760f76619120863a2cba648d377)
+* Updated changelog base [View commit](http://github.com/ical4j/ical4j/commit/7fbaf5a3f460fba553db449d938005e01708ae98)
+* Added validation reporting [View commit](http://github.com/ical4j/ical4j/commit/88f1d65a5bf8cac96faa4b79788dc266652b099c)
+* Added validation reporting [View commit](http://github.com/ical4j/ical4j/commit/adfeabb6274c7c97ac370eae1bbe51838421c957)
+* Throw runtime exception for invalid input to model creation (IllegalArgumentException) [View commit](http://github.com/ical4j/ical4j/commit/69cfa43557699ca75141de3ce001f20b59b7cb55)
+* Throw runtime exception for invalid input to model creation (IllegalArgumentException) [View commit](http://github.com/ical4j/ical4j/commit/3017ee3183c4fc4e3ce2a1d34859d4a46f5d1296)
+* Refactored immutable properties to avoid class loading deadlock [View commit](http://github.com/ical4j/ical4j/commit/60347ad7bfa2416d5780847b25ab2c7733abc211)
+* fix import wrong version of com.sun.mail [View commit](http://github.com/ical4j/ical4j/commit/8cfd0d2749e0190b97dbfbf1c006b5c3a8eebb44)
+* Fix import of old lib com.sun.mail => jakarta.mail, causes conflicts for example with greenMail server. [View commit](http://github.com/ical4j/ical4j/commit/d2d36325089c4d9456d5e77cb6b9a7cb87d67c9e)
+* Fix import of old lib com.sun.mail => jakarta.mail, causes conflicts for example with greenMail server. [View commit](http://github.com/ical4j/ical4j/commit/bfd4266df85b62ef662039fbedb4ee13a14617c0)
+* Approved API change due to jarkata mail dependency change [View commit](http://github.com/ical4j/ical4j/commit/f214fc75b197b7e3f5a0f1b544721d46562bf04c)
+* Fixed merge issue [View commit](http://github.com/ical4j/ical4j/commit/4a1e75fa05e61bfa57f6ffaa8be960c6b90b2c39)
+* Approved API change due to major code refactor [View commit](http://github.com/ical4j/ical4j/commit/859dd5dd1523f85d11fde32e00db4c888f7941a5)
+* Disabled tests for snapshot publishing [View commit](http://github.com/ical4j/ical4j/commit/1c4eb0a7ac6d4c39ebc127a827209d148c6706b2)
+* Refine validation reporting [View commit](http://github.com/ical4j/ical4j/commit/29b9357d5fb35cab819176de4e8d9ad250198962)
+* Configure next version marker to avoid clash with alpha releases [View commit](http://github.com/ical4j/ical4j/commit/d4cf2a0fee7877db92bf8231cfe2d636c30ef064)
+* Fix for publish snapshots with correct version [View commit](http://github.com/ical4j/ical4j/commit/8c1f843988b92c10eefc3105557477a1d118e305)
+* Make extender optional for better OSGi compatibility [View commit](http://github.com/ical4j/ical4j/commit/48bb03835ebb771e037c67cab6244db66810ab03)
+* Fixed more tests [View commit](http://github.com/ical4j/ical4j/commit/4f37a527b0a1195ea71578a2e7c2584bbbd8b921)
+* Validation fixes [View commit](http://github.com/ical4j/ical4j/commit/3d618ab74e85fb892aaf77e3b26e409988056a46)
+* Fixed test cleanup [View commit](http://github.com/ical4j/ical4j/commit/a4feabcc000c110a9093cbbf72cd4d0fd09c797d)
+* Fixed more tests [View commit](http://github.com/ical4j/ical4j/commit/64a5f5f3f39c8b5c2429bcf34760d936046da83a)
+* Ignore some tests for now [View commit](http://github.com/ical4j/ical4j/commit/9b5b24e1b4d942ea36bf9a6e237253450eaf7ab0)
+* Use commons-validator instead of javamail for address validation [View commit](http://github.com/ical4j/ical4j/commit/dbbcf8e265101975b2d7a11cf0453b63133b69a8)
+* Approve api breakage due to removal of javamail [View commit](http://github.com/ical4j/ical4j/commit/580fefc92fdfbf9bb21b735e17ff77771a522c6a)
+* Use commons-validator instead of javamail for address validation [View commit](http://github.com/ical4j/ical4j/commit/df766389636a62fb83e3ee2fd5c7c84a6ce3d27d)
+* Fix/ignore broken tests for beta release [View commit](http://github.com/ical4j/ical4j/commit/39481fa35559d219f489a2de732be714400cf722)
+* Use Interval to represent period between two instants [View commit](http://github.com/ical4j/ical4j/commit/1a4349d9cd0750196fb329dec472b84da5ac2d20)
+* When incrementing seed allow for partial overlap between candidate date and period start [View commit](http://github.com/ical4j/ical4j/commit/6515163876c0aa3d3d823187468e91511ffab26c)
+* Expect 8 of next 10 days are weekdays [View commit](http://github.com/ical4j/ical4j/commit/495fa90d1e273ad05d59a23af1da32424122ca6c)
+* Use Interval to represent period between two instants [View commit](http://github.com/ical4j/ical4j/commit/2d4b5c6958c787788302771b9a9d2ca93cc0c117)
+* Fixed test [View commit](http://github.com/ical4j/ical4j/commit/a976d7f15e542c3049878c02af76840f1ff0b079)
+* refactoring [View commit](http://github.com/ical4j/ical4j/commit/f2f41a391aaad61c0b6238e7d27ee78d8bf0dab2)
+* Approve api breakage due to major version upgrade [View commit](http://github.com/ical4j/ical4j/commit/1664a8dfd047a8f3b02d44310331dc77152c9ac7)
+
 # 4.0.0-alpha12
 
 * Fixed external javadoc links [View commit](http://github.com/ical4j/ical4j/commit/1e53cebfcca061375ba3c506437ad84712c976b4)
