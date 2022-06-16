@@ -3,13 +3,15 @@ layout: post
 title: Support for X-WR-TIMEZONE
 ---
 
-The question of how to interpret the `X-WR-TIMEZONE` calendar property has a very long history, and one that to
+The question of how to interpret the `X-WR-TIMEZONE` calendar property has a very 
+[long](https://blog.jonudell.net/2011/10/17/x-wr-timezone-considered-harmful/) 
+[history](https://github.com/niccokunzmann/python-recurring-ical-events/issues/53), and one that to
 my knowledge has never been resolved. Unlike most other non-standard properties, the use of `X-WR-TIMEZONE` may 
 impact the portability of iCalendar data depending on the assumptions made by the publisher and consumers.
 
 Until now, iCal4j had no support for this non-standard property, apart from the `WrTimeZone` property included in
-the ical4j-extensions library. But with iCal4j v4 there are two notable changes that improve support for a default
-calendar timezone.
+the [ical4j-extensions](https://github.com/ical4j/ical4j-extensions) library. But with iCal4j v4 there are two
+notable changes that improve support for a default calendar timezone.
 
 ## Changes to Date properties in iCal4j v4
 
