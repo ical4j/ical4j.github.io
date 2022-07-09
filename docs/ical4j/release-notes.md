@@ -3,6 +3,14 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 3.2.4
+
+* Use commons-validator instead of javamail for address validation [View commit](http://github.com/ical4j/ical4j/commit/dbbcf8e265101975b2d7a11cf0453b63133b69a8)
+* Approve api breakage due to removal of javamail [View commit](http://github.com/ical4j/ical4j/commit/580fefc92fdfbf9bb21b735e17ff77771a522c6a)
+* Use commons-validator instead of javamail for address validation [View commit](http://github.com/ical4j/ical4j/commit/df766389636a62fb83e3ee2fd5c7c84a6ce3d27d)
+* Fixed issue parsing invalid values [View commit](http://github.com/ical4j/ical4j/commit/de3bc97d2dada70cd29d0dcdf0f224fb517fe9eb)
+
+
 # 4.0.0-beta1
 
 * run tests with UTC timezone as default [View commit](http://github.com/ical4j/ical4j/commit/2cd3ce1d39d1f760f76619120863a2cba648d377)
