@@ -3,6 +3,32 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 4.0.0-beta2
+
+* Fixed factory for extended parameters [View commit](http://github.com/ical4j/ical4j/commit/d23ed0834df85469a7dbffcc8d7b09d1594e7fa6)
+* Fix javadoc search [View commit](http://github.com/ical4j/ical4j/commit/68c515b4dc4342dac24c1c7aeef0e48b1af86a22)
+* Disable secure tz update for now [View commit](http://github.com/ical4j/ical4j/commit/037ede0e5cff5fa4a9f794b12e85b3d19f2be76b)
+* Date list improvements [View commit](http://github.com/ical4j/ical4j/commit/1e8b13e792b46b43d33398090890468fcc740976)
+* Add support for default timezone in date properties [View commit](http://github.com/ical4j/ical4j/commit/03da0cd3d2d361972c8df25fcc5c62dc6b6e50c9)
+* Support extending content handler [View commit](http://github.com/ical4j/ical4j/commit/8816001a17fb8dc2bbecbada77375897e4e0aec8)
+* Date list improvements [View commit](http://github.com/ical4j/ical4j/commit/b476f6517bfba8dd6d704c096813024a6e405bea)
+* Prevent timezones on UTC-formatted properties [View commit](http://github.com/ical4j/ical4j/commit/51f318ba1abae8f3da24b7c94008ab6ec089ce01)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/316ac48a3624dad493d7079b1d6bce832f264b44)
+* Prevent timezones on UTC-formatted properties [View commit](http://github.com/ical4j/ical4j/commit/fb5d114a71856637f763c0d3b4d5bdfe6a251b0c)
+* Fixed issue parsing invalid values [View commit](http://github.com/ical4j/ical4j/commit/de3bc97d2dada70cd29d0dcdf0f224fb517fe9eb)
+* Updated baseline version [View commit](http://github.com/ical4j/ical4j/commit/371d75e16b42d16b3ea165fc5b0627bd5df2f050)
+* Fixed test assertion [View commit](http://github.com/ical4j/ical4j/commit/8fc2c88b310f6dc5e917a1bd43f62d3b6df49c98)
+* Updated baseline versions [View commit](http://github.com/ical4j/ical4j/commit/eec4710b359d81e46164f82f1cb7b2b84c3eeb95)
+* Added recurrence test [View commit](http://github.com/ical4j/ical4j/commit/3a6bf2ff2fa72a3e4dc451f727b9d43f92f2d7a7)
+* Added oss fuzz workflow action [View commit](http://github.com/ical4j/ical4j/commit/1cc0bcd724377fe195cfe8da92e564a2cdef05d3)
+* Don't validate email address if RELAXED_VALIDATION compatibility hint enabled [View commit](http://github.com/ical4j/ical4j/commit/5cce5dc1f25a3f50c2fba8a7236074603fdafe2d)
+* Improve support for GEO string deviations via regex parsing [View commit](http://github.com/ical4j/ical4j/commit/530e5d26acfb87d121f227c64f6ffe9497110728)
+* Clean up imports [View commit](http://github.com/ical4j/ical4j/commit/e656babda8ab53fe17fa6f28677cedf0e35132ca)
+* Updated test to support new date/time api [View commit](http://github.com/ical4j/ical4j/commit/abe2b492de532a3ffec4c717e9b62d50e853d2e3)
+* Updated zoneinfo to 2022c [View commit](http://github.com/ical4j/ical4j/commit/5b448ad1f059a540470f6884df96b1b13a87ede7)
+* Updated baseline version [View commit](http://github.com/ical4j/ical4j/commit/5cd860348db3e6e28d83640c0cbe7a17ea05ee83)
+* Fixed indeterminate test [View commit](http://github.com/ical4j/ical4j/commit/9e3ed463b554bbfc71aa4bebe551f4177775a670)
+
 # 3.2.5
 
 * Updated baseline version [View commit](http://github.com/ical4j/ical4j/commit/371d75e16b42d16b3ea165fc5b0627bd5df2f050)
