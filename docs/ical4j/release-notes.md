@@ -3,6 +3,16 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 3.2.5
+
+* Updated baseline version [View commit](http://github.com/ical4j/ical4j/commit/371d75e16b42d16b3ea165fc5b0627bd5df2f050)
+* Added recurrence test [View commit](http://github.com/ical4j/ical4j/commit/3a6bf2ff2fa72a3e4dc451f727b9d43f92f2d7a7)
+* Added oss fuzz workflow action [View commit](http://github.com/ical4j/ical4j/commit/1cc0bcd724377fe195cfe8da92e564a2cdef05d3)
+* Don't validate email address if RELAXED_VALIDATION compatibility hint enabled [View commit](http://github.com/ical4j/ical4j/commit/5cce5dc1f25a3f50c2fba8a7236074603fdafe2d)
+* Improve support for GEO string deviations via regex parsing [View commit](http://github.com/ical4j/ical4j/commit/530e5d26acfb87d121f227c64f6ffe9497110728)
+* Update README.md [View commit](http://github.com/ical4j/ical4j/commit/ed633cebc2feffd8932a19e0962c008227e63c49)
+* Updated zoneinfo to 2022c [View commit](http://github.com/ical4j/ical4j/commit/5b448ad1f059a540470f6884df96b1b13a87ede7)
+
 # 3.2.4
 
 * Use commons-validator instead of javamail for address validation [View commit](http://github.com/ical4j/ical4j/commit/dbbcf8e265101975b2d7a11cf0453b63133b69a8)
