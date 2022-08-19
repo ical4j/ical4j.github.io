@@ -3,6 +3,23 @@ layout: page
 title: iCal4j Integration - Release Notes
 ---
 
+# 0.2.0
+
+* Added missing javadoc and sources artefacts [View commit](http://github.com/ical4j/ical4j-integration/commit/650bb46ca6824796a3ca25acb5b2d98cdb958230)
+* Upgrade transitive dependency to resolve CVE [View commit](http://github.com/ical4j/ical4j-integration/commit/5d2bed0efcd74e9b3795732b959c88c8ec0bb82b)
+* Fixes [View commit](http://github.com/ical4j/ical4j-integration/commit/bc090406f472520043d8c3eb38c91f45eb02833d)
+* Updated gradle wrapper [View commit](http://github.com/ical4j/ical4j-integration/commit/8a5a26fd2c24fd3c93288c04f44002034b8e3c2f)
+* Refactoring aws support [View commit](http://github.com/ical4j/ical4j-integration/commit/99972bd0ff50ef94cc476ced04b3bed380e63c7a)
+* Changed consumer method signature [View commit](http://github.com/ical4j/ical4j-integration/commit/cea439400d13438bffa619935bc852bbb03d68ed)
+* Use jakarta mail in place of javamail library [View commit](http://github.com/ical4j/ical4j-integration/commit/ed889d552e6085bb45d1493f7c841b7c380769ef)
+* Updated to support ical4j v4 [View commit](http://github.com/ical4j/ical4j-integration/commit/b54bdff15c7dc2ba9585045dd812296fe9ef97fb)
+* Added command line and microservice support via picocli and jetty [View commit](http://github.com/ical4j/ical4j-integration/commit/b206b2cc4659fe04db2456c1b71ce36f755acc58)
+* Updated jms dependency [View commit](http://github.com/ical4j/ical4j-integration/commit/df8b78ea6f0f4e26137b1970da9d1d8766532c09)
+* Add event bridge support [View commit](http://github.com/ical4j/ical4j-integration/commit/c8529b3db5550bbef5ea94abe08cb354b9e83afb)
+* Updated ical4j dependencies [View commit](http://github.com/ical4j/ical4j-integration/commit/1680065387c016a2a5d99f022f6a0d66b74c593f)
+* Refactoring [View commit](http://github.com/ical4j/ical4j-integration/commit/0b20487fd812543f5d708f8e39af0332f7a7a5d2)
+* Updated publishing credentials [View commit](http://github.com/ical4j/ical4j-integration/commit/cbeeff17f1aab126784a7dab4e6a1a272d4f8c30)
+
 # 0.1.2
 
 * Fixed release tag prefix [View commit](http://github.com/ical4j/ical4j/commit/49146d6a75c8899202a9f78a35fdefa5c0c9aac6)
