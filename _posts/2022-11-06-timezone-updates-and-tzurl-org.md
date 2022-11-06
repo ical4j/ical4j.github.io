@@ -12,7 +12,7 @@ functionality works. These changes include:
 
 ## New timezone update site
 
-The update site https://www.tzurl.org is hosted on 100% serverless architecture, which should improve
+The update site [https://www.tzurl.org]() is hosted on 100% serverless architecture, which should improve
 reliability and security of timezone updates. Whilst the default scheme is HTTPS, non-TLS requests are also
 supported on the new site for backwards compatibility.
 
