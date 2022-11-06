@@ -6,7 +6,7 @@ title: Timezone updates and tzurl.org
 Starting with iCal4j releases 3.2.7 and 4.0.0-beta3 there are some minor changes with how the timezone update
 functionality works. These changes include:
 
-* The default update site will be changing to https://www.tzurl.org (was previously http://tzurl.org)
+* The default update site will be changing to [https://www.tzurl.org]() (was previously [http://tzurl.org]())
 * Additional configuration options support overriding the default update site
 * Caching of timezone loaders to improve overall performance
 
@@ -35,6 +35,6 @@ and improve performance. Previously a new loader instance was created for each r
 would need to be reloaded and updated. This would happen by default for every new parsing of a calendar object.
 
 With timezone loader caching the same loader is used across all timezone registries, resulting in faster object
-parsing due to the timezones being loaded and updtaed only once.
+parsing due to the timezones being loaded and updated only once.
 
 Please provide feedback or bug reports if you see any issues with this new functionality.
