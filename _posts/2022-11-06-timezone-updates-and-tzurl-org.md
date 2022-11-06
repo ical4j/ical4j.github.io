@@ -6,13 +6,13 @@ title: Timezone updates and tzurl.org
 Starting with iCal4j releases 3.2.7 and 4.0.0-beta3 there are some minor changes with how the timezone update
 functionality works. These changes include:
 
-* The default update site will be changing to [https://www.tzurl.org]() (was previously [http://tzurl.org]())
+* The default update site will be changing to [https://www.tzurl.org](https://www.tzurl.org) (was previously [http://tzurl.org](http://tzurl.org))
 * Additional configuration options support overriding the default update site
 * Caching of timezone loaders to improve overall performance
 
 ## New timezone update site
 
-The update site [https://www.tzurl.org]() is hosted on 100% serverless architecture, which should improve
+The update site [https://www.tzurl.org](https://www.tzurl.org) is hosted on 100% serverless architecture, which should improve
 reliability and security of timezone updates. Whilst the default scheme is HTTPS, non-TLS requests are also
 supported on the new site for backwards compatibility.
 
