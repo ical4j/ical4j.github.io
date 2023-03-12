@@ -3,6 +3,35 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 4.0.0-beta6
+
+* Updated included timezone definitions [View commit](http://github.com/ical4j/ical4j/commit/33369cc9215c368d4082740be6186840a2ef32e6)
+* Added test scenario [View commit](http://github.com/ical4j/ical4j/commit/728f90e3670b6b8cd131cb1c4a50747cde15352a)
+* Updated included timezone definitions [View commit](http://github.com/ical4j/ical4j/commit/a2aee6efe75cfe70587dafabbca2bddcf39489ac)
+* Allow for equality of updated definitions [View commit](http://github.com/ical4j/ical4j/commit/d84d304cabd2df385c4cbdae78409d0b1dbae5fc)
+* Added test scenarios [View commit](http://github.com/ical4j/ical4j/commit/79ae73318e1aad5b6f553a626976bdac71fc51a8)
+* Added support for suppressed invalid properties when parsing [View commit](http://github.com/ical4j/ical4j/commit/8e58da38509689f7e48a29059f275003b37d469a)
+* Added support for suppressed invalid properties when parsing [View commit](http://github.com/ical4j/ical4j/commit/5714aa2a4acac31ffbbce1e9ed0e049d11ee7add)
+* Added support for suppressed invalid properties when parsing [View commit](http://github.com/ical4j/ical4j/commit/c5ce90a942fee7a096f29ceb6e91d754c8043b49)
+* Support filtering extended properties and parameters [View commit](http://github.com/ical4j/ical4j/commit/42360da9c51d9e233e6edc22ed45035ded941d63)
+* Support filtering extended properties and parameters [View commit](http://github.com/ical4j/ical4j/commit/b05e39d441b90eb41323d8f036dab768a0f2f0bf)
+* Added toString for better logging [View commit](http://github.com/ical4j/ical4j/commit/66a56fe412db47fe4a9cc23c930870a0b0f4f6c0)
+* Enforce US locale to ensure correct string output of temporal amounts and zone offsets [View commit](http://github.com/ical4j/ical4j/commit/b0257526796e83022708deb3eef56189632da5bf)
+* Updated baseline [View commit](http://github.com/ical4j/ical4j/commit/a6588c0628bfceb1ebd874a7d3db9fd92bb88e4a)
+* Use built-in artefact features [View commit](http://github.com/ical4j/ical4j/commit/46e628374acb6d9401f6bd5bbdb9e24a9837a36d)
+* Catch some unchecked exceptions when suppressing invalid properties [View commit](http://github.com/ical4j/ical4j/commit/6c715bf25da2ef0b3e591154594014cbcc3ff22f)
+* Fixed spelling [View commit](http://github.com/ical4j/ical4j/commit/087c5490c0b2b76b6497a477ed958b2a840bd418)
+* Fixed spelling [View commit](http://github.com/ical4j/ical4j/commit/19000cfc5fa9e8c55621b6c9c30580a6cc420463)
+* Fixed build config [View commit](http://github.com/ical4j/ical4j/commit/7dfd18961105368f51e2aec2a586622db35de0bd)
+* Fixed build config [View commit](http://github.com/ical4j/ical4j/commit/3cabbc35f9b83c71076e67987e2eb0f259c56ef4)
+* Updated baseline [View commit](http://github.com/ical4j/ical4j/commit/926924121fbbf50326be604f16774903f2f799f6)
+* Fix filter to support any collection in collecton expression [View commit](http://github.com/ical4j/ical4j/commit/f26d856a164cfebeb322982b9ead24f0b8612195)
+* Added support for generating occurrences for a given period for recurring components [View commit](http://github.com/ical4j/ical4j/commit/b4cfdec66705a46ea3b7538eb1e3489a21fcfc94)
+* Clean up [View commit](http://github.com/ical4j/ical4j/commit/fa1ff08133b5ce15955a53074061dd4de9790ae5)
+* Updated baseline [View commit](http://github.com/ical4j/ical4j/commit/88434f8fd17143c1423b67266c04595fb7823c6a)
+
+...
+
 # 4.0.0-beta2
 
 * Fixed factory for extended parameters [View commit](http://github.com/ical4j/ical4j/commit/d23ed0834df85469a7dbffcc8d7b09d1594e7fa6)
