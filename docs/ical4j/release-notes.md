@@ -3,6 +3,46 @@ layout: page
 title: iCal4j - Release Notes
 ---
 
+# 4.0.0-beta8
+
+* Fixed test logic [View commit](http://github.com/ical4j/ical4j/commit/33849d67a52fe8b94ac6ec9745b833b8e4ebc6e2)
+* Fixed the return type for the Recur.Builder rscale and skip methods in order not to declare raw return type [View commit](http://github.com/ical4j/ical4j/commit/9ad0d9b6039b76b02f3bcf8b9dd4b160c4d5ecfd)
+* Extract zoneinfo from applicable temporal in constructor [View commit](http://github.com/ical4j/ical4j/commit/8fd6decd441493d5e86a8c1f5fb946fae7a4cfc7)
+* Provide abstraction for check of date-time values [View commit](http://github.com/ical4j/ical4j/commit/0e6b4f1df44cf7f7db40b55409815ddda3cac882)
+* Updated baseline version and approve api changes [View commit](http://github.com/ical4j/ical4j/commit/822e191bfa036a9cf2dfdfd9ac434a7c1cb8aad4)
+* Removed redundant handling of checked exceptions in copy method [View commit](http://github.com/ical4j/ical4j/commit/d43f2841a8db6625dca2209c6284ff02a32b87cc)
+* Fixed docs [View commit](http://github.com/ical4j/ical4j/commit/c355cbb0b30e8f6678d78a83d291da2df6b173d9)
+* Explicitly exclude vulnerable transitive dependency [View commit](http://github.com/ical4j/ical4j/commit/445fb55ce29d2143f766a8e448c20aa3800ffb9b)
+* Fix internal tzid for temporal adapter [View commit](http://github.com/ical4j/ical4j/commit/b77bb3bd761391dd76ab59ec063748051ff8f133)
+* Revert internal tz change [View commit](http://github.com/ical4j/ical4j/commit/7acfd3c8a48ee2dfe45de166e162572357d8b206)
+* updated logging dependencies [View commit](http://github.com/ical4j/ical4j/commit/cb2304f2bb8f681b2d8253d597a50ece848d53af)
+* update GH Actions [View commit](http://github.com/ical4j/ical4j/commit/72b682dd7ef7a56c3260c5be3e54c84579921add)
+* Update to Gradle 8.1.1 [View commit](http://github.com/ical4j/ical4j/commit/23a433e42c360e0e47b8e0da17f7f05d1dc1ebd1)
+* use Gradle 7.6 [View commit](http://github.com/ical4j/ical4j/commit/fec2dfa74bfc72f6e393900458c724839469a269)
+* add JDK 19 to GH Actions [View commit](http://github.com/ical4j/ical4j/commit/85f4a4e54083f551f6fe7afc8b796ac640fb06d9)
+* update Groovy to v3.0.17 [View commit](http://github.com/ical4j/ical4j/commit/70c0312a6151a7da849036f2f23756475c34462e)
+* #631: replace everit-json-schema with json-sKema [View commit](http://github.com/ical4j/ical4j/commit/8d07c06fbd566ba58002dc7787bccf0dc261957e)
+* Java 8 compatibility (readAllBytes is JDK 9+) [View commit](http://github.com/ical4j/ical4j/commit/500f6429d89870c802a83aa9b99b722abdd83b93)
+* Update gradle setup action used in workflows [View commit](http://github.com/ical4j/ical4j/commit/0772e8c757e0375f96a1a3bccefb77b42bd86c99)
+* Updated gradle wrapper version [View commit](http://github.com/ical4j/ical4j/commit/8f995caca8eb632b4495e150f5f90edf2cb9c53b)
+* Update gradle setup action used in workflows [View commit](http://github.com/ical4j/ical4j/commit/35903e8dd9969bb888de1c357100d61113db9df6)
+* Update bnd definition to reflect schema dependencies change [View commit](http://github.com/ical4j/ical4j/commit/d598d9a77e05112f2040fce49c5d393f85f20f3f)
+* Use gradle check for default build [View commit](http://github.com/ical4j/ical4j/commit/55a97506a1ffce9ffd0bca683bde50f4f61e7ae1)
+* update action in scorecards.yml [View commit](http://github.com/ical4j/ical4j/commit/261c1099344a64ee9927fd4119e1675cb6812039)
+* Update scorecards version [View commit](http://github.com/ical4j/ical4j/commit/4f37ed70d4c61001e709b3d3e453320df1a23811)
+* Use entry set for equality test [View commit](http://github.com/ical4j/ical4j/commit/daf320721314a885403801b2490db8c6470d5011)
+* Remove unused packages [View commit](http://github.com/ical4j/ical4j/commit/9a2126fa090ef5d6d82e5975279108b0478a48ec)
+* Added check goal [View commit](http://github.com/ical4j/ical4j/commit/91449d2ec9720b13cc6f33cb4f49077c53cc5678)
+* Refactor [View commit](http://github.com/ical4j/ical4j/commit/afd3179d1f6f450ce0b10c91e3e11b5328941af3)
+* Updated validaion for enumerated properties [View commit](http://github.com/ical4j/ical4j/commit/3c1bdde68bd72cfbfeb3d66db9f639a31d21d225)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/acba127626035ba1a859677f691e1977d7a05c3b)
+* Refactoring [View commit](http://github.com/ical4j/ical4j/commit/94a8e343fb2f1dc150ce27f23c3de7224ffdc828)
+* Add typed setter [View commit](http://github.com/ical4j/ical4j/commit/08f776fc67c16eca53aae82e9fd8011ed896caf0)
+* Fixed broken test [View commit](http://github.com/ical4j/ical4j/commit/10b428e7d13d3a968d7056882aa06edf5b67c609)
+* Refactored property accessors [View commit](http://github.com/ical4j/ical4j/commit/19dcdca9ea09cdb4efeb9bfe9fefb29a0b01e667)
+
+...
+
 # 4.0.0-beta6
 
 * Updated included timezone definitions [View commit](http://github.com/ical4j/ical4j/commit/33369cc9215c368d4082740be6186840a2ef32e6)
