@@ -1,0 +1,11 @@
+org.ical4j.template
+org.ical4j.template.participant
+org.ical4j.template.property
+org.ical4j.template.valarm
+org.ical4j.template.vcard
+org.ical4j.template.vcard.property
+org.ical4j.template.vevent
+org.ical4j.template.vjournal
+org.ical4j.template.vlocation
+org.ical4j.template.vresource
+org.ical4j.template.vtodo
