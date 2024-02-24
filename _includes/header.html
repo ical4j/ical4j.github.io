@@ -15,7 +15,7 @@
 
       <div class="trigger">
         {% for page in site.pages %}
-          {% if page.title %}{% unless page.title contains ' - Release Notes' %}
+          {% if page.title %}{% unless page.title contains ' - Release Notes' or page.title contains 'jQuery' %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endunless %}{% endif %}
         {% endfor %}
