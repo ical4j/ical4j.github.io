@@ -22,7 +22,5 @@ can be improved.
 iCal4j v4 is now based entirely on the new Date/Time API introduced in Java 8. This will have the biggest impact
 on existing code using prior versions as it will need to be refactored to use the new APIs.
 
-As always, please provide feedback on this release via Github issues and discussions.
-
-Github Issues: https://github.com/ical4j/ical4j/issues
-Github Discussions: https://github.com/orgs/ical4j/discussions
+As always, please provide feedback on this release via Github [issues](https://github.com/ical4j/ical4j/issues)
+and [discussions](https://github.com/orgs/ical4j/discussions).
