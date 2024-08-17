@@ -3,12 +3,12 @@ layout: page
 title: API Documentation
 ---
 
-- [ical4j](ical4j/api)
-- [ical4j-vcard](ical4j-vcard/api)
-- [ical4j-connector](ical4j-connector/api)
-- [ical4j-template](ical4j-template/api)
-- [ical4j-zoneinfo-outlook](ical4j-zoneinfo-outlook/api)
-- [ical4j-extensions](ical4j-extensions/api)
-- [ical4j-serializer](ical4j-serializer/api)
-- [ical4j-integration-api](ical4j-integration-api/api)
-- [ical4j-integration-mail](ical4j-integration-mail/api)
+- [ical4j](https://javadoc.io/doc/org.mnode.ical4j/ical4j/latest)
+- [ical4j-vcard](https://javadoc.io/doc/org.mnode.ical4j/ical4j-vcard/latest)
+- [ical4j-connector](https://javadoc.io/doc/org.ical4j/ical4j-connector-api/latest)
+- [ical4j-template](https://javadoc.io/doc/org.ical4j/ical4j-template/latest)
+- [ical4j-zoneinfo-outlook](https://javadoc.io/doc/org.mnode.ical4j/ical4j-zoneinfo-outlook/latest)
+- [ical4j-extensions](https://javadoc.io/doc/org.mnode.ical4j/ical4j-extensions/latest)
+- [ical4j-serializer](https://javadoc.io/doc/org.ical4j/ical4j-serializer/latest)
+- [ical4j-integration-api](https://javadoc.io/doc/org.ical4j/ical4j-integration-api/latest)
+- [ical4j-integration-mail](https://javadoc.io/doc/org.ical4j/ical4j-integration-mail/latest)
